@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mc0-iot-coursera
+  host: mc0-iot-coursera
+  disk_quota: 1024M
+  services:
+  - mc0-iot-coursera-cloudantNoSQLDB
+  - mc0-iot-coursera-iotf-service
